@@ -11,7 +11,7 @@ stats = {
     "today_questions": 0,
     "today_date": ""
 }
-ADMIN_ID = 0  # Sizning Telegram ID ingiz - /myid buyrug'i bilan bilib olasiz
+ADMIN_ID = 5841851652  # Admin ID
 
 GEMINI_KEYS = [
     "AIzaSyCHxGRuDSA35GPgxS7gbYMzhdpD1z1E9sY",
