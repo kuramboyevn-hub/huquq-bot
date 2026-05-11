@@ -121,7 +121,6 @@ while True:
                 continue
             
             if text == "/start":
-                global ADMIN_ID
                 stats["users"].add(str(chat_id))
                 if ADMIN_ID is None:
                     ADMIN_ID = chat_id
