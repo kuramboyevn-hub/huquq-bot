@@ -73,7 +73,7 @@ def gemini_ask(question):
         key = GEMINI_KEYS[current_key % len(GEMINI_KEYS)]
         try:
             req = urllib.request.Request(
-                f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={key}",
+                f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key={key}",
                 data=data,
                 headers={"Content-Type": "application/json"}
             )
