@@ -11,7 +11,7 @@ stats = {
     "today_questions": 0,
     "today_date": ""
 }
-ADMIN_ID = None  # Birinchi /start bosgan odam admin bo'ladi
+ADMIN_ID = 0  # Sizning Telegram ID ingiz - /myid buyrug'i bilan bilib olasiz
 
 GEMINI_KEYS = [
     "AIzaSyCHxGRuDSA35GPgxS7gbYMzhdpD1z1E9sY",
@@ -160,6 +160,9 @@ Kategoriyalar:
             elif text.startswith("/"):
                 send_message(chat_id, "Noma'lum buyruq. /help ni bosing.")
                 
+            elif text == "/myid":
+                send_message(chat_id, f"Sizning Telegram ID: {chat_id}")
+
             elif text == "/stats":
                 if str(chat_id) == str(ADMIN_ID):
                     import datetime
