@@ -14,15 +14,11 @@ stats = {
 ADMIN_ID = 5841851652  # Admin ID
 
 GEMINI_KEYS = [
-    "AIzaSyCHxGRuDSA35GPgxS7gbYMzhdpD1z1E9sY",
-    "AIzaSyDMiAQ1Iw61KuFhI013cebvfgJEITMiZkY",
-    "AIzaSyDUBr_f01-iYLVQnpKgtS2euXuYllK_RjQ",
-    "AIzaSyC72LqvyxQ2ot2aotGtHaQruzvLLQijnZA",
-    "AIzaSyCm6Jgzx5OrVS7AjP7GAtztp9QDduieyO0",
-    "AIzaSyA0pjrT8sY0GJnYfW9Hq_tb65RA1rFFGEA",
-    "AIzaSyDdg7EfUOKGeuWyFfpRj5d2pzPncMma9dE",
     "AIzaSyDvNffraHRAELYDA_DXK6AevWHvd0qKSak",
-    "AIzaSyA7ovEbbx2qsT2rmLspByef_uyjJP8z85k"
+    "AIzaSyA7ovEbbx2qsT2rmLspByef_uyjJP8z85k",
+    "AIzaSyCm6Jgzx5OrVS7AjP7GAtztp9QDduieyO0",
+    "AIzaSyB383pmKsd7FGEknYquqiXnpIs469nzccE",
+    "AIzaSyBL7Gkd5srBaKAFttPIz274PB9AZ3CcSd8"
 ]
 current_key = 0
 
